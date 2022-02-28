@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- defer은 window.onload 와 같은 역할을 함 -->
+    <script src="js/oninput.js" defer></script> 
+</head>
+<body>
+    <!-- onchange = 엔터를 쳐야 이벤트 발동, oninput = 할 때마다(그때그때) 이벤트 발동 -->
+    <form>
+        <h1>입력폼</h1>
+        <input type="text" class="name-input">
+        <p class="warning-message"></p>
+        <div class="button-wrapper">
+            <button class="cancle">취소</button>
+            <button class="submit">전송</button>
+        </div>
+    </form>
+    
+</body>
+</html>
